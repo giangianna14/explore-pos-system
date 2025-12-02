@@ -829,7 +829,7 @@ channel.postMessage({ type: 'checkout', items: cart, total: 50000 });
 - [Web Serial API](https://developer.mozilla.org/en-US/docs/Web/API/Web_Serial_API)
 - [Window Placement API](https://developer.chrome.com/docs/capabilities/window-placement)
 - [BroadcastChannel API](https://developer.mozilla.org/en-US/docs/Web/API/Broadcast_Channel_API)
-- [USB HID API](https://developer.mozilla.org/en-US/docs/Web/API/WebHID_API)
+- [WebHID API](https://developer.mozilla.org/en-US/docs/Web/API/WebHID_API) *(Note: Barcode scanners in Keyboard Wedge mode use standard HID, not WebHID)*
 
 ### Protocols & Standards
 
